@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "intent": "MessageBeam",
+      "slots": [
+        {
+          "name": "User",
+          "type": "AMAZON.US_FIRST_NAME"
+        } 
+      ]
+    },
+    {
+      "intent": "SentMessage",
+      "slots": [
+        {
+          "name": "Message",
+          "type": "AMAZON.US_FIRST_NAME"
+        } 
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}		

@@ -1,0 +1,25 @@
+{
+    "intents": [
+        {
+            "intent" : "TellMeAQuestion"
+        },
+        {
+            "intent" : "RepeatAgain"
+        },
+        {
+            "intent" : "YesGiveResultsAskAgain"
+        },
+        {
+            "intent" : "NoGiveResultsAskAgain"
+        },
+        {
+            "intent": "AMAZON.HelpIntent"
+        },
+        {
+            "intent": "AMAZON.StopIntent"
+        },
+        {
+            "intent": "AMAZON.CancelIntent"
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+MessageBeam beam {User}
+
+SentMessage {Message}

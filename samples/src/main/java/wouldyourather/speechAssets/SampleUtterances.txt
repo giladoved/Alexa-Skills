@@ -1,0 +1,18 @@
+TellMeAQuestion to start playing
+TellMeAQuestion let's play would you rather
+TellMeAQuestion give me another one
+TellMeAQuestion another one
+TellMeAQuestion next
+
+RepeatAgain repeat that
+RepeatAgain what?
+RepeatAgain repeat
+RepeatAgain what was that?
+RepeatAgain again
+
+YesGiveResultsAskAgain yes
+YesGiveResultsAskAgain yeah
+YesGiveResultsAskAgain true
+NoGiveResultsAskAgain no
+NoGiveResultsAskAgain nope
+NoGiveResultsAskAgain false
