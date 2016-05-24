@@ -92,9 +92,6 @@ public class BeamSpeechlet implements Speechlet {
             SimpleCard card = new SimpleCard();
             card.setTitle("Beam");
             card.setContent(cardText);
-
-            Reprompt reprompt = new Reprompt();
-            reprompt.setOutputSpeech(speech);
             
             try {
                 postRequestUpdateRecording();
@@ -102,7 +99,7 @@ public class BeamSpeechlet implements Speechlet {
                 java.util.logging.Logger.getLogger(BeamSpeechlet.class.getName()).log(Level.SEVERE, null, ex);
             }
 
-            return SpeechletResponse.newAskResponse(speech, reprompt, card);
+            return SpeechletResponse.newTellResponse(speech, card);
         } else if ("AMAZON.HelpIntent".equals(intentName)) {
             String speechText = "Beam a friend by saying 'beam friend'";
             PlainTextOutputSpeech speech = new PlainTextOutputSpeech();

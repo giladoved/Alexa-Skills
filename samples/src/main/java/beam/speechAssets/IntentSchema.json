@@ -14,7 +14,7 @@
       "slots": [
         {
           "name": "Message",
-          "type": "AMAZON.US_FIRST_NAME"
+          "type": "AMAZON.ALL_LIST"
         } 
       ]
     },
